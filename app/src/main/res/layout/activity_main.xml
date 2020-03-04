@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:theme="@style/GameForKids"
+    android:background="@drawable/image13"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+<!--        Nút Play-->
+        <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_play"
+            android:text="Play"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+<!--        Nút Help-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/btn_help"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:text="Help"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+<!--        Nút Quit-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <Button
+            android:id="@+id/btn_quit"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18dp"
+            android:background="@drawable/btn_quit"
+            android:layout_weight="1"
+            android:text="Quit"
+            android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorGray2"
+        android:state_pressed="true"/>       <!-- Hiện màu đỏ khi ấn vào nút -->
+    <item android:drawable="@color/colorViewScore"
+        android:state_pressed="false"/>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners android:radius="50dp" />
+        <!--    <stroke android:color="#F8F8FF" android:width="3dp" />-->
+        <solid android:color="@color/colorViewScore" />
+    </shape>
+</selector>
